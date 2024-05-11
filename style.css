@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headersec{
+    display:flex;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    background-color: white;
+    height: 10vh;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.icons{
+width: 22px;
+}
+
+.searchbox{
+    height:40px;
+    width: 450px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    background-color: #f0f5ff;
+    padding-left: 20px;
+}
+
+body{
+    background-color: #f1f2f4;
+}
+
+.carttext{
+    position: relative;
+    top:-6px;
+}
+
+.icontext{
+    position: relative;
+    top:-5px;
+
+}
+
+.dothover{
+    /* width: 22px; */
+    border-radius: 5px;
+    padding: 3px;
+}
+.dothover:hover{
+    border:1px solid gainsboro
+}
+
+/* section1-------->>> */
+
+.section1{
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 5px 10px 10px 10px; 
+    
+
+}
+
+.sec1child{
+    margin:5px;
+   
+}
+
+
+.sec1img{
+    
+    height: 80px;
+    width: 80px;
+    background-color:white;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.sec1img img{
+    
+    width:70px;
+}
+
+.sectext{
+    background-color:white;
+    height:25px;
+    width: 50px;
+    text-align:center;  
+}
+
+/* section2 */
+
+.section2{
+    height: 35vh;
+    width: 98vw;
+    background-color: white;
+    margin: 10px;
+   
+}
+
+.sec2img img{
+    width: 100%;
+    height: 35vh;
+}
+
+.image{
+    height: 35vh;
+    width: 98vw;  
+}
+
+.leftb{
+    background-color: white;
+    height:75px;
+    width:35px;
+    position:absolute;
+    top:290px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bolder;
+    color: grey;
+    border:none;
+}
+
+.rightb{
+    background-color: white;
+    height:75px;
+    width:35px;
+    position:absolute;
+    top:290px;
+    right:1px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+    font-weight: bolder;
+    color: grey;
+    border:none;
+
+}
+
+
+
+
+/* section3 */
+
+.leftside{
+    height: 53vh;
+    width: 79vw;
+    margin: 10px;
+    background-color: white;
+}
+
+.sec3{
+    display: flex;
+    
+}
+
+
+.add{
+    height: 53vh;
+    width: 28vw;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec3header{
+    padding: 20px;
+}
+
+.sec3img{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec3img img{
+    width: 170px;
+}
+
+.sec3img img:hover{
+    width: 190px;
+}
+
+.carditems{
+    border: 1px solid lightgray;
+    height: 250px;
+    width:  200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.sec3imgtext{
+    height: 20px;
+    width: 200px;
+    text-align: center;  
+}
+
+
+
+.cardcont{
+    display:flex;
+    overflow-x:scroll;
+    /* width: 75vw; */
+}
+
+/* section4 */
+
+.leftside4{
+    height: 53vh;
+    width: 98vw;
+    margin: 10px;
+    
+    background-color: white;
+}
+
+.sec4header{
+    padding: 20px;
+}
+
+.sec4img{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4img img{
+    width: 170px;
+}
+
+.sec4img img:hover{
+    width: 190px;
+}
+
+.carditems4{
+    border: 1px solid  lightgray;
+    height: 250px;
+    width:  200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.sec4imgtext{
+    height: 20px;
+    width: 200px;
+    text-align: center;  
+}
+
+.cardcont4{
+    display:flex;
+    overflow-x:scroll;
+    
+}
+
+/* section5 */
+
+.sec5{
+    height: 53vh;
+    width: 98vw;
+    margin: 10px;
+    background-color: white;
+}
+
+.sec5header{
+    padding: 20px;
+}
+
+.sec5img{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec5img img{
+    width: 170px;
+}
+
+.sec5img img:hover{
+    width: 190px;
+}
+
+.carditems5{
+    border: 1px solid  lightgray;
+    height: 250px;
+    width:  200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.sec5imgtext{
+    height: 20px;
+    width: 200px;
+    text-align: center;  
+}
+
+.cardcont5{
+    display:flex;
+    overflow-x:scroll;
+    
+}
+
+.para{
+    color: gray;
+    font-size: 12px;
+    font-style: normal;
+}
+
+/* footer */
+
+.footer{
+    background-color: #212121;
+} 
+.litems{
+    color: white;
+    font-weight: 700;
+    list-style: none;  
+    font-size: 11px;
+    line-height: 1.5;
+    
+}
+.fhead{
+font-size:11px ;
+color: gray;
+margin-bottom: 10px;
+}
+
+
+
+#bor{
+    border-right: 1px solid grey;
+    padding-right: 90px;
+}
+
+.upfooter{
+    padding: 40px 45px 0px 20px;
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    height: 30vh;
+}
+
+
+.downf{
+    margin: 30px;
+    background-color: #212121;
+    display:flex;
+    justify-content:space-between;
+    justify-content:space-around;
+    align-items: center;
+    height: 10vh;
+    border-top: 1px solid grey;
+}
+
+
+.lftxt{
+    color: white;
+    
+}
+
+.lfoot1{
+    display: flex;
+}
+
+.lftxt1{
+    margin-bottom: 5px;
+    color: white;
+}
